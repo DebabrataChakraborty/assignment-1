@@ -47,3 +47,44 @@ header{
     color: whitesmoke;
     border: none; 
 }
+/* failure styles */
+.failure-content{
+    display: flex;
+    align-items: center;
+    gap: 90;
+    margin-right: 50px;
+    
+}
+.failure-image{
+    padding-left: 206px;
+}
+.failures-details{
+    padding-top: 130px;
+    height: 410px;
+    width: 420px;
+    padding-left: 250px;
+}
+.failures-details h3{
+    color: #151414;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 25px;   
+}
+.failures-details .failures-causes{
+    color: #444343;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px
+
+}
+.failures-details ul li::before{
+    content: "\2713";
+    color: rgb(34, 240, 34);
+}
+.failures-details ul li{
+    color: #151414;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    margin-bottom: 10px;
+}
