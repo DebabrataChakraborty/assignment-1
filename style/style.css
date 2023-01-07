@@ -47,7 +47,7 @@ header{
     color: whitesmoke;
     border: none; 
     height: 70px;
-    font: weight 700px; 
+    font-weight: 700px; 
     font-size: 25px;
 }
 /* failure styles */
@@ -70,7 +70,7 @@ header{
 .failures-details h3{
     color: #151414;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 25px;   
 }
 .failures-details .failures-causes{
@@ -80,6 +80,7 @@ header{
     margin-bottom: 15px
 
 }
+/* checkmark add styles */
 .failures-details ul li::before{
     content: "\2713";
     color: rgb(34, 240, 34);
@@ -126,7 +127,7 @@ header{
     margin-bottom: 10px;
     margin-right: 200PX;
 }
-/* my hobbies styles */
+/* my hobbies for bonus mark styles */
 .hobby-content {
     text-align: center;
     margin-bottom: 120px;
@@ -195,69 +196,68 @@ header{
     margin-top: 150px;
 }
 .information-details {
-    margin-top: 130px;
-    margin-left: 200px;
+    margin-left: 150px;
+    margin-top: 120px;
 }
 .information-content {
     display: flex;
-    gap: 330px;
+    gap: 300px;
     align-items: center;
 }
 .information-title {
+    font-size: 40px;
     color: #F8F8F8;
-    font-size: 45px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 .information-description {
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 400;
         margin-bottom: 25px;
 }
 .information-email {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 15px;
 }
 .information-phone {
     color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
     margin-bottom: 35px;
 }
+/* subscribe styles */
 .subscribe-title {
     color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
 }
 .subscribe form input[type="text"]{
-    width: 325px;
-    height: 65px;
-    margin-bottom: 15px;
-    border-radius: 5px;
+    width: 400px;
+    height: 70px;
     background-color: #151414;
     border: 1px solid white;
     color: white;
-    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
     margin-right: 150px;
 }
 .subscribe form input[type="submit"]{
     height: 65px;
     color: #d16d01;
     font-size: 20px;
-    font-weight: 600;
-    padding: 20px 35px;
-    background-color:#FFFFFF;
+    font-weight: 700;
     border-radius: 5px;
+    background-color:#FFFFFF;
     border: none;
     cursor: pointer;
+    padding: 25px 40px; 
 }
 
 .subscribe form input::placeholder {
     color: #F3F3F3;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
 }
