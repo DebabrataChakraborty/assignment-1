@@ -188,3 +188,76 @@ header{
     background-color: whitesmoke;
     color: #d16d01;
 }
+/* footer styles */
+.information {
+    height: 600px;
+    background-color: #151414;
+    margin-top: 150px;
+}
+.information-details {
+    margin-top: 130px;
+    margin-left: 200px;
+}
+.information-content {
+    display: flex;
+    gap: 330px;
+    align-items: center;
+}
+.information-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.information-description {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 25px;
+}
+.information-email {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.information-phone {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.subscribe-title {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.subscribe form input[type="text"]{
+    width: 325px;
+    height: 65px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #151414;
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+    margin-right: 150px;
+}
+.subscribe form input[type="submit"]{
+    height: 65px;
+    color: #d16d01;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe form input::placeholder {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+}
