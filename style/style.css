@@ -5,7 +5,7 @@
 }
 /* header Styles */
 header{
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(/images/banner/banner2.png);
     height: 900px;
     text-align: right;
     background-repeat: no-repeat;
@@ -46,6 +46,9 @@ header{
     border-radius: 5px;
     color: whitesmoke;
     border: none; 
+    height: 70px;
+    font: weight 700px; 
+    font-size: 25px;
 }
 /* failure styles */
 .failure-content{
@@ -87,4 +90,101 @@ header{
     font-weight: 400;
     list-style: none;
     margin-bottom: 10px;
+}
+/* my plans styles */
+.plan-content {
+    text-align: center;
+    margin-bottom: 120px;
+}
+.plan-content h3{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50PX;
+    margin-top: 130PX;
+
+}
+.plan-types{
+    display: flex;
+    justify-content: center;
+}
+.plan-items h4{
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-right: 200PX;
+} 
+.plan-details{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-right: 200PX;
+}
+.plan-items img {
+    margin-bottom: 10px;
+    margin-right: 200PX;
+}
+/* my hobbies styles */
+.hobby-content {
+    text-align: center;
+    margin-bottom: 120px;
+}
+.hobby-content h3{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50PX;
+    margin-top: 130PX;
+
+}
+.hobby-types{
+    display: flex;
+    justify-content: center;
+}
+.hobby-items h4{
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-right: 200PX;
+} 
+.hobby-details{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-right: 200PX;
+}
+.hobby-items img {
+    margin-bottom: 10px;
+    margin-right: 200PX;
+    height: 200px;
+}
+/* image-blend style */
+.image-blend {
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.image-blend-content {
+    padding: 50px 55px;
+}
+
+.image-blend-title {
+    color:white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.image-blend .ctu{
+    background-color: whitesmoke;
+    color: #d16d01;
 }
