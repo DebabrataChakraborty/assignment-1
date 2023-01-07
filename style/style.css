@@ -245,15 +245,15 @@ header{
     margin-right: 150px;
 }
 .subscribe form input[type="submit"]{
-    height: 65px;
-    color: #d16d01;
-    font-size: 20px;
-    font-weight: 700;
+    padding: 8px 15px;
+    background: whitesmoke;
     border-radius: 5px;
-    background-color:#FFFFFF;
-    border: none;
+    color: #d16d01;
+    border: none; 
+    height: 70px;
+    font-weight: 700px; 
+    font-size: 25px;
     cursor: pointer;
-    padding: 25px 40px; 
 }
 
 .subscribe form input::placeholder {
